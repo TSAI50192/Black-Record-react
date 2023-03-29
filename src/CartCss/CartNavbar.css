@@ -1,0 +1,131 @@
+/* CartNavbar */
+
+.c-n-wrap {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.c-NavbarContainer {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.c-Navbar {
+  width: 80%;
+  height: 100px;
+  margin: auto;
+  border: 3px solid black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.c-NavbarCart {
+  width: 400px;
+  background-color: #2c2e26;
+  transform: translateX(-100%);
+  transition: 1s;
+}
+
+.c-n-navbar-brand {
+  background-color: #e0ddd3;
+}
+
+.c-n-btn {
+  position: relative;
+  background-color: #e0ddd3;
+  border: none;
+}
+.c-NavbarContainer path,
+.c-NavbarContainer svg {
+  background-color: #e0ddd3;
+}
+
+.c-NavbarZ {
+  position: relative;
+  z-index: 2;
+}
+
+.c-n-Move {
+  transform: translateX(0);
+}
+
+.c-NavbarDetailContent {
+  display: flex;
+  align-items: center;
+  background-color: gainsboro;
+}
+
+.c-NavbarCartText {
+  width: 100%;
+}
+
+.c-NavbarCartText h2 {
+  color: white;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  background-color: #2c2e26;
+}
+
+.c-NavbarCartbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2c2e26;
+}
+
+.c-NavbarCartbtn a {
+  background-color: #893b3b;
+}
+
+.c-NavbarCart h3 {
+  background-color: #893b3b;
+}
+
+.c-NavbarCart button {
+  margin: 50px;
+  width: 180px;
+  height: 50px;
+  color: white;
+  background-color: #893b3b;
+  border: #893b3b;
+}
+
+.c-NavbarDetailDard {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background-color: gainsboro;
+}
+
+.c-NavbarDetailDard a {
+  color: black;
+}
+
+.c-NavbarDetailContent {
+  border-bottom: 1px solid black;
+}
+
+.c-NavbarDetailContent svg,
+.c-NavbarDetailContent path {
+  color: white;
+  background-color: gainsboro;
+}
+
+.c-NavbarDetailDard img {
+  width: 70px;
+  height: 70px;
+  background-color: gainsboro;
+}
+
+.c-NavbarDetail h5 {
+  color: white;
+  background-color: gainsboro;
+}

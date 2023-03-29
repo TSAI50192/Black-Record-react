@@ -1,0 +1,1596 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  font-weight: bold;
+}
+
+a {
+  font-family: Noto Sans TC;
+  font-size: px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-decoration: none;
+}
+/* 導覽列 */
+.b-hero {
+  width: 100%;
+  /* height: 880px; */
+  /* position: relative; */
+}
+
+/* 影片 */
+.b-back-video {
+  /* width: 100%; */
+  height: 1080px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.title {
+  margin-top: 10%;
+  margin-bottom: 15%;
+  margin-left: 5%;
+  width: 70%;
+}
+
+.title h1 {
+  margin-top: 20%;
+  color: #fff;
+  font-size: 128px;
+  font-weight: bold;
+  line-height: 130px;
+}
+
+.b-content {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 10%;
+  margin-left: 80%;
+  /* margin-top: -5%; */
+  margin-bottom: 2%;
+}
+.b-content1 {
+  color: #fff;
+  font-size: 50px;
+}
+
+.b-content h3 {
+  font-weight: 900;
+  font-size: 50%;
+  margin-right: 5%;
+}
+
+.b-content a {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  font-size: 40px;
+  margin-top: 5%;
+  margin-right: 5%;
+}
+
+.b-nav {
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  /* position: sticky; */
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+label.logo {
+  padding-left: 70px;
+  /* padding-top: 50px; */
+  font-weight: 800;
+  margin-top: 30px;
+  padding-bottom: 10px;
+}
+
+.b-nav ul {
+  float: right;
+  margin-right: 70px;
+  margin-top: 30px;
+}
+
+ol,
+ul {
+  padding-left: 0;
+}
+
+.b-nav ul li {
+  list-style: none;
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 20px;
+}
+
+.b-nav ul li a {
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: bold;
+  /* text-transform: uppercase; */
+}
+
+i.active,
+i:hover {
+  color: #7a7979;
+  transition: 0.3s;
+}
+
+a.active,
+a:hover {
+  color: #7a7979;
+  transition: 0.3s;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: rgb(235, 238, 242);
+  float: right;
+  line-height: 80px;
+  margin-right: 10%;
+  cursor: pointer;
+  display: none;
+}
+
+.checkbtn1 {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+/* 下拉式選單 */
+@media (max-waidth: 952px) {
+  .b-hero {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  /* 影片 */
+  .b-back-video {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  .title {
+    /* margin-top: 15%; */
+    margin-left: 5%;
+    width: 70%;
+  }
+
+  .title h1 {
+    /* margin-top: 15%; */
+    color: #fff;
+    font-size: 20%;
+    font-weight: bold;
+    /* line-height: 110px;
+        letter-spacing: 0em; */
+  }
+
+  .b-content {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 80%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    /* margin-left: ; */
+  }
+  .b-content1 {
+    color: #fff;
+    font-size: 28px;
+  }
+
+  .b-content h3 {
+    font-weight: 900;
+  }
+
+  .b-content a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 50px;
+    margin-top: 2%;
+    margin-right: 5%;
+  }
+  /* .b-navbar */
+
+  .checkbtn1 {
+    display: none;
+  }
+
+  .b-nav ul li a {
+    font-size: 16px;
+  }
+
+  input {
+    width: 40%;
+    height: 38px;
+    padding-left: 10px;
+  }
+  input li i {
+    padding-left: 100%;
+  }
+}
+
+@media (max-width: 858px) {
+  /* 導覽列 */
+  .b-hero {
+    width: 100%;
+    height: 667px;
+/*     position: relative; */
+  }
+
+  /* 影片 */
+  .b-back-video {
+    position: absolute;
+    top: 0;
+    margin-left: 50%;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  .title {
+    margin-top: 50%;
+    margin-left: 5%;
+    width: 90%;
+  }
+
+  .title h1 {
+    margin-top: 40%;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .b-content {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 20%;
+    margin-top: 50%;
+    margin-bottom: 2%;
+    margin-right: 20%;
+    /* margin-left: ; */
+  }
+  .b-content1 {
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .b-content h3 {
+    font-weight: 900;
+    font-size: 16px;
+  }
+
+  .b-content a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 0.5%;
+    margin-right: 20%;
+  }
+  /* .b-navbar */
+  label.logo {
+    /* line-height: 20px; */
+    padding-left: 10%;
+    margin-top: 4%;
+    width: 20px;
+    padding-bottom: 10px;
+  }
+
+  .checkbtn {
+    display: block;
+  }
+  .checkbtn1 {
+    display: block;
+  }
+
+  .b-nav ul {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #e0ddd3;
+    top: 0px;
+    left: 100%;
+    text-align: center;
+    transition: all 0.5s;
+    z-index: 999;
+    float: right;
+    margin-right: 70px;
+    margin-top: 0px;
+  }
+  .b-nav ul li {
+    display: block;
+    margin: 45px;
+    line-height: 30px;
+  }
+  .b-nav ul li a i {
+    color: #000000;
+    font-size: 20px;
+    transition: 0.3s;
+  }
+  .b-nav ul li a {
+    color: #000000;
+    font-size: 20px;
+    transition: 0.3s;
+  }
+  .b-checkbtn:active,
+  .b-checkbtn:hover {
+    color: #747474;
+  }
+
+  a:hover,
+  a.active {
+    background: none;
+    color: #747474;
+    padding-left: 10px;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+  #check:checked ~ ul {
+    right: 100%;
+  }
+}
+
+/* 介紹頁面 */
+.b-container1 {
+  width: 100%;
+  height: 1050px;
+  background-color: #e0ddd3;
+  display: flex;
+  flex-direction: row;
+}
+
+.b-box3 {
+  width: 700px;
+  padding-right: 2%;
+  /* display: flex; */
+  flex-direction: row;
+  margin-top: 8%;
+  margin-left: 10%;
+}
+
+.b-box3 img {
+  margin-top: 5%;
+  /* margin-left: 0%; */
+  margin-bottom: 8%;
+  border-radius: 3%;
+}
+
+.b-box4 {
+  /* /* width: 1900px; */
+  overflow: hidden;
+  width: 800px;
+  height: 650px;
+  margin-top: 8%;
+  margin-right: 10%;
+  border-radius: 3%;
+}
+
+/* 
+.b-box4 img .logo1{
+    width: 100px;
+    height: 100px;
+    z-index: 22;
+} */
+
+.b-box5 {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.b-box5 h1 {
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+.b-box5 h1 p {
+  margin-right: 15%;
+  font-weight: bold;
+  margin: 8%;
+}
+
+.b-box6 {
+  display: flex;
+  flex-direction: row;
+  border-radius: 3%;
+}
+
+.b-box7 {
+  width: 600px;
+  padding-top: 65%;
+  padding-left: 35%;
+}
+
+/* 製造過程 */
+.b-container2 {
+  overflow: hidden;
+  width: 100%;
+  height: 4000px;
+  background-color: #2c2e26;
+}
+
+.b-box8 {
+  position: absolute;
+  width: 850px;
+  height: 110px;
+  left: 260px;
+  top: 2500px;
+}
+
+.b-box8 h3 {
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 41px;
+  color: #c6b269;
+  padding-bottom: 4%;
+}
+
+.b-box8 p {
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 41px;
+  color: #c6b269;
+}
+
+.b-box9 {
+  position: absolute;
+  /* width: 600px;
+    height: 1000px; */
+  overflow: hidden;
+  margin-left: 12%;
+  top: 2800px;
+  border-radius: 3%;
+  z-index: 2;
+}
+
+.b-box9 h1 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 200px;
+  line-height: 180px;
+  color: rgba(198, 178, 105, 0.2);
+}
+.b-box10 {
+  /* position:absolute; */
+  overflow: hidden;
+  width: 1500px;
+  margin-left: 35%;
+  margin-top: 300px;
+}
+
+.b-box11 {
+  position: absolute;
+  width: 700px;
+  left: 55%;
+  top: 2900px;
+}
+.b-box11 h3 {
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 93px;
+  /* text-align: right;     */
+  color: #c6b269;
+}
+
+.b-box11 p {
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 41px;
+  color: #c6b269;
+}
+
+.b-box12 {
+  position: absolute;
+  overflow: hidden;
+  width: 700px;
+  height: 600px;
+  top: 3700px;
+  border-radius: 3%;
+  left: 55%;
+}
+
+.b-box14 p{
+  /* position: absolute; */
+  margin-left: 55%;
+  margin-top: 22%;
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  /* line-height: 41px; */
+  color: #c6b269;
+}
+
+.b-box15 {
+  position: absolute;
+  width: 650px;
+  height: 1000px;
+  overflow: hidden;
+  margin-left: 12%;
+  top: 4200px;
+  border-radius: 3%;
+  z-index: 1;
+}
+
+.b-box15 h1 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 200px;
+  line-height: 180px;
+  color: rgba(198, 178, 105, 0.2);
+}
+
+.b-box15 img {
+  width: 800px;
+  height: 800px;
+  overflow: hidden;
+  border-radius: 3%;
+}
+
+.b-box17 {
+  position: absolute;
+  width: 700px;
+  left: 55%;
+  top: 4900px;
+}
+.b-box17 h3 {
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 93px;
+  /* text-align: right;     */
+  color: #c6b269;
+}
+
+.b-box17 p {
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 41px;
+  color: #c6b269;
+}
+
+.b-box18 {
+  position: absolute;
+  overflow: hidden;
+  width: 700px;
+  /* height:800px; */
+  top: 500px;
+  border-radius: 3%;
+}
+
+.b-box19 {
+  position: absolute;
+  top: 985px;
+  /* margin-left:55%; */
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 21px;
+  /* line-height: 41px; */
+  color: #c6b269;
+}
+
+.b-box20 {
+  position: absolute;
+  width: 630px;
+  /* height: 100%; */
+  overflow: hidden;
+  margin-left: 12%;
+  top: 5500px;
+  border-radius: 3%;
+  z-index: 2;
+}
+
+.b-box20 h1 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 200px;
+  line-height:180px;
+  color: rgba(198, 178, 105, 0.2);
+}
+
+.b-box21 {
+  /* position: absolute; */
+  width: 700px;
+  margin-top: 5%;
+  margin-left: 55%;
+  margin-bottom: 15%;
+}
+
+.b-box21 h3 {
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 93px;
+  /* text-align: right;     */
+  color: #000000;
+}
+
+.b-box21 p {
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 41px;
+  color: #000000;
+}
+
+.b-box22 {
+  position: absolute;
+  /* overflow:hidden; */
+  width: 1800px;
+  right: 20%;
+  top: 4600px;
+}
+
+/* 關於 */
+.b-container3 {
+  overflow: hidden;
+  width: 100%;
+  height: 2700px;
+  background-color: #e0ddd3;
+  /* margin-top: 200px; */
+}
+
+@media (max-waidth: 952px) {
+  .b-container1 {
+    width: 100%;
+    height: 1050px;
+    background-color: #e0ddd3;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .b-box3 {
+    width: 300px;
+    padding-right: 2%;
+    /* display: flex; */
+    flex-direction: row;
+    margin-top: 8%;
+    margin-left: 10%;
+  }
+
+  .b-box3 img {
+    margin-top: 5%;
+    /* margin-left: 0%; */
+    margin-bottom: 8%;
+    border-radius: 3%;
+  }
+
+  .b-box4 {
+    /* /* width: 1900px; */
+    overflow: hidden;
+    width: 800px;
+    height: 650px;
+    margin-top: 8%;
+    margin-right: 10%;
+    border-radius: 3%;
+  }
+
+  /* 
+    .b-box4 img .logo1{
+        width: 100px;
+        height: 100px;
+        z-index: 22;
+    } */
+
+  .b-box5 {
+    padding-left: 5%;
+  }
+
+  .b-box5 h1 {
+    font-weight: bold;
+    margin-bottom: 2%;
+  }
+  .b-box5 h1 p {
+    margin-right: 15%;
+    font-weight: bold;
+    margin: 8%;
+  }
+
+  .b-box6 {
+    display: flex;
+    flex-direction: row;
+    border-radius: 3%;
+  }
+
+  .b-box7 {
+    width: 200px;
+    padding-top: 75%;
+    padding-left: 30%;
+  }
+
+  /* 製造過程 */
+  .b-container2 {
+    overflow: hidden;
+    width: 100%;
+    height: 4000px;
+    background-color: #2c2e26;
+  }
+
+  .b-box8 {
+    position: absolute;
+    width: 850px;
+    height: 110px;
+    left: 260px;
+    top: 2500px;
+  }
+
+  .b-box8 h3 {
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 41px;
+    color: #c6b269;
+    padding-bottom: 4%;
+  }
+
+  .b-box8 p {
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-size: 20px;
+    line-height: 41px;
+    color: #c6b269;
+  }
+
+  .b-box9 {
+    position: absolute;
+    /* width: 600px;
+        height: 1000px; */
+    overflow: hidden;
+    margin-left: 12%;
+    top: 2800px;
+    border-radius: 3%;
+    z-index: 2;
+  }
+
+  .b-box9 h1 {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    /* line-height: 289px; */
+    color: rgba(198, 178, 105, 0.2);
+  }
+  .b-box10 {
+    /* position:absolute; */
+    overflow: hidden;
+    width: 1500px;
+    margin-left: 35%;
+    margin-top: 300px;
+  }
+
+  .b-box11 {
+    position: absolute;
+    width: 700px;
+    left: 55%;
+    top: 2900px;
+  }
+  .b-box11 h3 {
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 93px;
+    /* text-align: right;     */
+    color: #c6b269;
+  }
+
+  .b-box11 p {
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 41px;
+    color: #c6b269;
+  }
+
+  .b-box12 {
+    position: absolute;
+    overflow: hidden;
+    width: 700px;
+    height: 600px;
+    top: 3700px;
+    border-radius: 3%;
+    left: 55%;
+  }
+
+  .b-box14 {
+    /* position: absolute; */
+    margin-left: 55%;
+    margin-top: 15%;
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 21px;
+    /* line-height: 41px; */
+    color: #c6b269;
+  }
+
+  .b-box15 {
+    position: absolute;
+    width: 650px;
+    height: 1000px;
+    overflow: hidden;
+    margin-left: 12%;
+    top: 4200px;
+    border-radius: 3%;
+    z-index: 1;
+  }
+
+  .b-box15 h1 {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 280px;
+    color: rgba(198, 178, 105, 0.2);
+  }
+
+  .b-box15 img {
+    width: 800px;
+    height: 800px;
+    overflow: hidden;
+    border-radius: 3%;
+  }
+
+  .b-box17 {
+    position: absolute;
+    width: 700px;
+    left: 55%;
+    top: 4900px;
+  }
+  .b-box17 h3 {
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 93px;
+    /* text-align: right;     */
+    color: #c6b269;
+  }
+
+  .b-box17 p {
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 41px;
+    color: #c6b269;
+  }
+
+  .b-box18 {
+    position: absolute;
+    overflow: hidden;
+    width: 700px;
+    /* height:800px; */
+    top: 500px;
+    border-radius: 3%;
+  }
+
+  .b-box19 {
+    position: absolute;
+    top: 985px;
+    /* margin-left:55%; */
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 21px;
+    /* line-height: 41px; */
+    color: #c6b269;
+  }
+
+  .b-box20 {
+    position: absolute;
+    width: 630px;
+    /* height: 100%; */
+    overflow: hidden;
+    margin-left: 12%;
+    top: 5500px;
+    border-radius: 3%;
+    z-index: 2;
+  }
+
+  .b-box20 h1 {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    /* line-height: 289px; */
+    color: rgba(198, 178, 105, 0.2);
+  }
+
+  .b-box21 {
+    position: absolute;
+    width: 700px;
+    left: 55%;
+    top: 6100px;
+  }
+  .b-box21 h3 {
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 93px;
+    /* text-align: right;     */
+    color: #000000;
+  }
+
+  .b-box21 p {
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 41px;
+    color: #000000;
+  }
+
+  .b-box22 {
+    position: absolute;
+    /* overflow:hidden; */
+    width: 1800px;
+    right: 20%;
+    top: 4600px;
+  }
+
+  /* 關於 */
+  .b-container3 {
+    overflow: hidden;
+    width: 100%;
+    height: 2300px;
+    background-color: #e0ddd3;
+  }
+}
+
+@media (max-width: 858px) {
+  .b-container1 {
+    width: 100%;
+    height: 1600px;
+    background-color: #e0ddd3;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .b-box3 {
+    width: 320px;
+    padding-right: 2%;
+    /* display: flex; */
+    flex-direction: row;
+    margin-top: 8%;
+    margin-left: 8%;
+  }
+
+  .b-box3 img {
+    width: 280px;
+    height: 100%;
+    /* margin-top: 5%;
+        margin-right: 5%; */
+    margin-bottom: 8%;
+    border-radius: 3%;
+  }
+
+  .b-box4 {
+    overflow: hidden;
+    width: 280px;
+    height: 300px;
+    margin-top: 8%;
+    margin-left: 12%;
+    /* margin-right: 10%; */
+    border-radius: 3%;
+  }
+
+  .b-box4 img {
+    /* width: 100%; */
+    height: 100%;
+    z-index: 22;
+  }
+
+  .b-box5 {
+    padding-right: 5%;
+  }
+
+  .b-box5 h1 {
+    font-weight: bold;
+    margin-bottom: 2%;
+  }
+  .b-box5 h1 p {
+    margin-right: 15%;
+    font-weight: bold;
+    margin: 8%;
+  }
+
+  .b-box6 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 3%;
+  }
+
+  .b-box7 {
+    width: 100px;
+    padding-top: 10%;
+    padding-left: 2%;
+  }
+
+  /* 製造過程 */
+  .b-container2 {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+    height: 4000px;
+    background-color: #2c2e26;
+  }
+
+  .b-box8 {
+    position: absolute;
+    width: 850px;
+    height: 110px;
+    left: 260px;
+    top: 2500px;
+  }
+
+  .b-box8 h3 {
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 41px;
+    color: #c6b269;
+    padding-bottom: 4%;
+  }
+
+  .b-box8 p {
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-size: 20px;
+    line-height: 41px;
+    color: #c6b269;
+  }
+
+  .b-box9 {
+    position: absolute;
+    /* width: 600px;
+        height: 1000px; */
+    overflow: hidden;
+    margin-left: 12%;
+    top: 2800px;
+    border-radius: 3%;
+    z-index: 2;
+  }
+
+  .b-box9 h1 {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    /* line-height: 289px; */
+    color: rgba(198, 178, 105, 0.2);
+  }
+  .b-box10 {
+    /* position:absolute; */
+    overflow: hidden;
+    width: 1500px;
+    margin-left: 35%;
+    margin-top: 300px;
+  }
+
+  .b-box11 {
+    position: absolute;
+    width: 700px;
+    left: 55%;
+    top: 2900px;
+  }
+  .b-box11 h3 {
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 93px;
+    /* text-align: right;     */
+    color: #c6b269;
+  }
+
+  .b-box11 p {
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 41px;
+    color: #c6b269;
+  }
+
+  .b-box12 {
+    position: absolute;
+    overflow: hidden;
+    width: 700px;
+    height: 600px;
+    top: 3700px;
+    border-radius: 3%;
+    left: 55%;
+  }
+
+  .b-box14 {
+    /* position: absolute; */
+    margin-left: 55%;
+    margin-top: 15%;
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 21px;
+    /* line-height: 41px; */
+    color: #c6b269;
+  }
+
+  .b-box15 {
+    position: absolute;
+    width: 650px;
+    height: 1000px;
+    overflow: hidden;
+    margin-left: 12%;
+    top: 4200px;
+    border-radius: 3%;
+    z-index: 1;
+  }
+
+  .b-box15 h1 {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 280px;
+    color: rgba(198, 178, 105, 0.2);
+  }
+
+  .b-box15 img {
+    width: 800px;
+    height: 800px;
+    overflow: hidden;
+    border-radius: 3%;
+  }
+
+  .b-box17 {
+    position: absolute;
+    width: 700px;
+    left: 55%;
+    top: 4900px;
+  }
+  .b-box17 h3 {
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 93px;
+    /* text-align: right;     */
+    color: #c6b269;
+  }
+
+  .b-box17 p {
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 41px;
+    color: #c6b269;
+  }
+
+  .b-box18 {
+    position: absolute;
+    overflow: hidden;
+    width: 700px;
+    /* height:800px; */
+    top: 500px;
+    border-radius: 3%;
+  }
+
+  .b-box19 {
+    position: absolute;
+    top: 985px;
+    /* margin-left:55%; */
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 21px;
+    /* line-height: 41px; */
+    color: #c6b269;
+  }
+
+  .b-box20 {
+    position: absolute;
+    width: 630px;
+    /* height: 100%; */
+    overflow: hidden;
+    margin-left: 12%;
+    top: 5500px;
+    border-radius: 3%;
+    z-index: 2;
+  }
+
+  .b-box20 h1 {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    /* line-height: 289px; */
+    color: rgba(198, 178, 105, 0.2);
+  }
+
+  .b-box21 {
+    position: absolute;
+    width: 700px;
+    left: 55%;
+    top: 6200px;
+  }
+  .b-box21 h3 {
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 93px;
+    /* text-align: right;     */
+    color: #000000;
+  }
+
+  .b-box21 p {
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 41px;
+    color: #000000;
+  }
+
+  .b-box22 {
+    position: absolute;
+    /* overflow:hidden; */
+    width: 1800px;
+    right: 20%;
+    top: 4600px;
+  }
+
+  /* 關於 */
+  .b-container3 {
+    overflow: hidden;
+    width: 100%;
+    height: 2300px;
+    background-color: #e0ddd3;
+  }
+}
+
+/* 倫播牆 */
+.b-box23 {
+  position: absolute;
+  width: 100%;
+  top: 900px;
+  background-color: #e0ddd3;
+  overflow: hidden;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+} 
+
+/* .image-slider {
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  margin-top: 500px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.7s;
+}
+
+.slides-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px 0 20px;
+}
+
+.img1 {
+  border-radius: 20px;
+  position: relative;
+  width: 260px;
+  height: 390px;
+  transition: 0.5s;
+  filter: saturate(10%);
+}
+
+.button {
+  border-radius: 20px;
+  position: absolute;
+  width: 260px;
+  height: 390px;
+  transition: 0.5s;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.button:hover {
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#slider-span1:target ~ .image-slider #img1,
+#slider-span1:target ~ .image-slider #button-1 {
+  width: 380px;
+  height: 585px;
+  background-color: transparent;
+  filter: saturate(100%);
+}
+#slider-span2:target ~ .image-slider #img2,
+#slider-span2:target ~ .image-slider #button-2 {
+  width: 380px;
+  height: 585px;
+  background-color: transparent;
+  filter: saturate(100%);
+}
+#slider-span3:target ~ .image-slider #img3,
+#slider-span3:target ~ .image-slider #button-3 {
+  width: 380px;
+  height: 585px;
+  background-color: transparent;
+  filter: saturate(100%);
+}
+#slider-span4:target ~ .image-slider #img4,
+#slider-span4:target ~ .image-slider #button-4 {
+  width: 380px;
+  height: 585px;
+  background-color: transparent;
+  filter: saturate(100%);
+}
+#slider-span5:target ~ .image-slider #img5,
+#slider-span5:target ~ .image-slider #button-5 {
+  width: 380px;
+  height: 585px;
+  background-color: transparent;
+  filter: saturate(100%);
+}
+#slider-span6:target ~ .image-slider #img6,
+#slider-span6:target ~ .image-slider #button-6 {
+  width: 380px;
+  height: 585px;
+  background-color: transparent;
+  filter: saturate(100%);
+}
+#slider-span7:target ~ .image-slider #img7,
+#slider-span7:target ~ .image-slider #button-7 {
+  width: 380px;
+  height: 585px;
+  background-color: transparent;
+  filter: saturate(100%);
+}
+
+#slider-span1:target ~ .image-slider {
+  left: 70%;
+}
+#slider-span2:target ~ .image-slider {
+  left: 50%;
+}
+#slider-span3:target ~ .image-slider {
+  left: 25%;
+}
+#slider-span5:target ~ .image-slider {
+  left: -70%;
+}
+#slider-span6:target ~ .image-slider {
+  left: -50%;
+}
+#slider-span7:target ~ .image-slider {
+  left: -25%;
+} */
+
+/* 製造影片 */
+.b-box24 {
+  overflow: hidden;
+  /* width:100%; */
+  margin-top:10%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+/* 通路 */
+.b-container4 {
+  overflow: hidden;
+  width: 100%;
+  height: 1100px;
+  background-color: #2c2e26;
+}
+
+.b-map {
+  margin: 8%;
+  width: 50%;
+  height: 100vh;
+}
+
+.b-box25 {
+  margin-top: 8%;
+}
+
+.b-box25 h1 {
+  margin-top: 8%;
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 41px;
+  color: #c6b269;
+  margin-bottom: 10%;
+}
+
+.b-box25 h4 {
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 60px;
+  color: #c6b269;
+  padding-top: 8%;
+}
+
+.b-box25 p {
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 20px;
+  color: #c6b269;
+}
+
+/* footer */
+.footer {
+  padding-top: 50px;
+  width: 100%;
+  height: 30%;
+  background-color: #2c2e26;
+}
+
+.footer-container {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+footer ul {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+footer ul li i {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer li a {
+  color: #ffffff;
+  margin-left: 45px;
+}
+
+.footer-col {
+  margin: 2%;
+}
+
+.footer-col h3 {
+  padding: 0 40px 10px;
+  font-size: 20px;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-weight: bold;
+  position: relative;
+}
+
+.footer-ul {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-col2 {
+  margin-top: 10%;
+  font-size: 10px;
+  color: #1f1f1f;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-col3 p {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #b4b4b4;
+  margin: 0px;
+  padding-bottom: 50px;
+}
+
+@media (max-waidth: 952px) {
+  .footer-col {
+    margin: 2.5%;
+  }
+
+  footer li a {
+    color: #fff;
+    margin: 100px;
+  }
+
+  a:hover,
+  a.active {
+    background: none;
+    color: #bbbbbb;
+    padding-left: 10px;
+  }
+  .footer-ul li {
+    display: flex;
+    justify-content: center;
+  }
+  a:hover,
+  a.active {
+    background: none;
+    color: #bbbbbb;
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 858px) {
+  .footer-col {
+    text-align: center;
+  }
+  .footerlogo {
+    /* width: 50px; */
+    margin: 40px;
+  }
+  footer li a {
+    color: #fff;
+    margin-left: 0px;
+  }
+  .footer-ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-ul li {
+    padding: 10px;
+  }
+  a:hover,
+  a.active {
+    background: none;
+    color: #bbbbbb;
+    padding-left: 10px;
+  }
+}

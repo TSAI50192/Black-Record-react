@@ -1,0 +1,14 @@
+/* CartProducts */
+
+.c-p-CartProducts.row.row-cols-3 h6 {
+  background-color: #e0ddd3;
+}
+
+.c-p-CartProducts.row.row-cols-3 span {
+  color: black;
+  background-color: #e0ddd3;
+}
+
+.Cart-card-body {
+  background-color: #e0ddd3;
+}

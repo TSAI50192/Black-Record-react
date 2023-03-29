@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>商品列表測試1</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="./bs/css/bootstrap.css">
+        <link rel="stylesheet" href="./fontawesome/css/all.css">
+        <link rel="stylesheet" href="./all.css">
+        <link rel="stylesheet" href="./bs/js/bootstrap.js">
+
+    </head>
+
+    <body>
+        <header class="bg-dark">
+            <div class="container">
+                <div class="row">
+                    <header
+                        class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+                        <a href="/"
+                            class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+                            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                                <use xlink:href="#bootstrap" />
+                            </svg>
+                        </a>
+
+                        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                            <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
+                            <li><a href="#" class="nav-link px-2 link-dark">Features</a></li>
+                            <li><a href="#" class="nav-link px-2 link-dark">Pricing</a></li>
+                            <li><a href="#" class="nav-link px-2 link-dark">FAQs</a></li>
+                            <li><a href="#" class="nav-link px-2 link-dark">About</a></li>
+                        </ul>
+
+                        <div class="col-md-3 text-end">
+                            <button type="button" class="btn btn-outline-primary me-2">Login</button>
+                            <button type="button" class="btn btn-primary">Sign-up</button>
+                        </div>
+                    </header>
+                </div>
+            </div>
+        </header>
+
+        <main class="bg-dark">
+
+            <div class="product container">
+                <div class="row row-cols-2">
+                    <div class="menuLeft col-12 col-md-3">
+                        <p class="menuLeftLabel h4">搜尋商品</p>
+                        <form class="form-filter">
+                            <label for="commoditySelect" class="menuLeftLabel">商品項目</label>
+                            <select class="form-select  form-select-sm" aria-label=".form-select-sm">
+                                <option selected>
+                                    黑膠唱片/黑膠音響/其他商品</option>
+                                <option value="record">黑膠唱片</option>
+                                <option value="audio">黑膠音響</option>
+                                <option value="other">其他商品</option>
+                            </select>
+                            <label for="musicSelect" class="menuLeftLabel">音樂類型</label>
+                            <select class="form-select  form-select-sm" aria-label=".form-select-sm">
+                                <option selected>華語/西洋/演奏/原聲帶</option>
+                                <option value="chPop">華語/流行</option>
+                                <option value="EnPop">西洋/流行</option>
+                                <option value="country">鄉村/民謠</option>
+                                <option value="rock">搖滾/金屬</option>
+                                <option value="hitPop">嘻哈/饒舌</option>
+                                <option value="soundTrack">原聲帶</option>
+                            </select>
+                            <label for="audioSelect" class="menuLeftLabel">音響品牌</label>
+                            <select class="form-select  form-select-sm" aria-label=".form-select-sm">
+                                <option selected>國內/外黑膠音響品牌</option>
+                                <option value="brand1">品牌1</option>
+                                <option value="brand2">品牌2</option>
+                            </select>
+                            <label for="inputNumber" class="menuLeftLabel">依價格搜尋</label>
+                            <select class="form-select  form-select-sm" aria-label=".form-select-sm">
+                                <option selected>定價金額</option>
+                                <option value="priceNum1">$0~999</option>
+                                <option value="priceNum2">$1000~2999</option>
+                                <option value="priceNum3">$3000~5999</option>
+                                <option value="priceNum3">$6000up</option>
+                            </select>
+
+                            <label for="inputText" class="keyWord form-label">依關鍵字搜尋</label>
+                            <input type="text" class="keyWord form-control" id="keyWord-inputText">
+                            <div class="menuLeft-btn d-grid mt-3">
+                                <button type="button" class="menuLeft-btn btn-secondary h5 mt-3">搜尋</button>
+                            </div>
+                        </form>
+
+                        <!-- 左側TOP5列表 -->
+                        <div class="top5List mt-8 d-none d-lg-block">
+                            <p class="top5Label h3">Top 5</p>
+                            <div class="top5Ccard row">
+                                <div class="top5Img col">
+                                    <img src="./img/52.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="top5Info col list-unstyled">
+                                    <a href="#" class="ablunmName text-14">日本宮崎駿日本動畫電影純輕天空之城【音樂年華】</a>
+                                    <li class="topListTittle list-unstyled text-warning">
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-stroke"></i>
+                                    </li>
+                                    <li class="albumPrice h5">$1990</li>
+                                </div>
+                            </div>
+                            <div class="top5Ccard row">
+                                <div class="top5Img col">
+                                    <img src="./img/52.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="top5Info col list-unstyled">
+                                    <a href="#" class="ablunmName text-14">日本宮崎駿日本動畫電影純輕天空之城【音樂年華】</a>
+                                    <li class="topListTittle list-unstyled text-warning">
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-stroke"></i>
+                                    </li>
+                                    <li class="albumPrice h5">$1990</li>
+                                </div>
+                            </div>
+                            <div class="top5Ccard row">
+                                <div class="top5Img col">
+                                    <img src="./img/52.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="top5Info col list-unstyled">
+                                    <a href="#" class="ablunmName text-14">日本宮崎駿日本動畫電影純輕天空之城【音樂年華】</a>
+                                    <li class="topListTittle list-unstyled text-warning">
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-stroke"></i>
+                                    </li>
+                                    <li class="albumPrice h5">$1990</li>
+                                </div>
+                            </div>
+                            <div class="top5Ccard row">
+                                <div class="top5Img col">
+                                    <img src="./img/52.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="top5Info col list-unstyled">
+                                    <a href="#" class="ablunmName text-14">日本宮崎駿日本動畫電影純輕天空之城【音樂年華】</a>
+                                    <li class="topListTittle list-unstyled text-warning">
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-stroke"></i>
+                                    </li>
+                                    <li class="albumPrice h5">$1990</li>
+                                </div>
+                            </div>
+                            <div class="top5Ccard row">
+                                <div class="top5Img col">
+                                    <img src="./img/52.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="top5Info col list-unstyled">
+                                    <a href="#" class="ablunmName text-14">日本宮崎駿日本動畫電影純輕天空之城【音樂年華】</a>
+                                    <li class="topListTittle list-unstyled text-warning">
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-stroke"></i>
+                                    </li>
+                                    <li class="albumPrice h5">$1990</li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- 中央導航欄位 -->
+                    <!-- POINT:缺排序 -->
+                    <div class="centerList col-12 col-md-9 mb-3">
+                        <div class="centerNav">
+                            <ul class="nav justify-content-center">
+                                <li class="centerNav-item">
+                                    <a class="nav-link" href="#">全部</a>
+                                </li>
+                                <li class="centerNav-item">
+                                    <a class="nav-link" href="#">獨家販售</a>
+                                </li>
+                                <li class="centerNav-item">
+                                    <a class="nav-link" href="#">熱門商品</a>
+                                </li>
+                                <li class="centerNav-item">
+                                    <a class="nav-link" href="#">最新上架</a>
+                                </li>
+                                <li class="centerNav-item">
+                                    <a class="nav-link" href="#">黑膠唱片</a>
+                                </li>
+                                <li class="centerNav-item">
+                                    <a class="nav-link" href="#">唱片機</a>
+                                </li>
+                                <li class="centerNav-item">
+                                    <a class="nav-link" href="#">其他商品</a>
+                                </li>
+                            </ul>
+                            <div class="dropdown-center">
+                                <button class="btn btn-secondary dropdown-toggle" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Centered dropdown
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Action two</a></li>
+                                    <li><a class="dropdown-item" href="#">Action three</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- 商品卡片列表 TODO:瀑布流 -->
+                        <div class="productListFs col mt-5 p-2">
+                            <div class="row row-cols-sm-2 row-cols-lg-4 g-7">
+                                <div class="col ">
+                                    <div class="productCardFs card h-100">
+                                        <img src="./img/52.jpg" class="card-img-top w-100 p-2" alt="商品專輯">
+                                        <div class="productCard card-body">
+                                            <p class="productAlbumName">【音樂年華】日本宮崎駿日本動畫電影純輕天空之城</p>
+                                            <li class="productCard-item list-unstyled">
+                                                <i class="h4 fa-regular fa-heart"></i>
+                                                <i class="h5 float-end">$1990</i>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="productCard card h-100">
+                                        <img src="./img/52.jpg" class="card-img-top w-100 p-2" alt="...">
+                                        <div class="productCard card-body">
+                                            <p class="productAlbumName">【音樂年華】日本宮崎駿日本動畫電影純輕天空之城</p>
+                                            <li class="productCard-item list-unstyled">
+                                                <i class="h4 fa-regular fa-heart"></i>
+                                                <i class="h5 float-end">$1990</i>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="productCard card h-100">
+                                        <img src="./img/52.jpg" class="card-img-top w-100 p-2" alt="...">
+                                        <div class="productCard card-body">
+                                            <p class="productAlbumName">【音樂年華】日本宮崎駿日本動畫電影純輕天空之城</p>
+                                            <li class="productCard-item list-unstyled">
+                                                <i class="h4 fa-regular fa-heart"></i>
+                                                <i class="h5 float-end">$1990</i>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="productCard card h-100">
+                                        <img src="./img/52.jpg" class="card-img-top w-100 p-2" alt="...">
+                                        <div class="productCard card-body">
+                                            <p class="productAlbumName">【音樂年華】日本宮崎駿日本動畫電影純輕天空之城</p>
+                                            <li class="productCard-item list-unstyled">
+                                                <i class="h4 fa-regular fa-heart"></i>
+                                                <i class="h5 float-end">$1990</i>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+        <!-- Footer -->
+        <footer class="bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="container">
+                        <footer class="row row-cols-5 py-5 my-5 border-top">
+                            <div class="col">
+                                <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                                    <svg class="bi me-2" width="40" height="32">
+                                        <use xlink:href="#bootstrap" />
+                                    </svg>
+                                </a>
+                                <p class="text-muted">&copy; 2021</p>
+                            </div>
+
+                            <div class="col">
+
+                            </div>
+
+                            <div class="col">
+                                <h5>Section</h5>
+                                <ul class="nav flex-column">
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a>
+                                    </li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a>
+                                    </li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a>
+                                    </li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a>
+                                    </li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="col">
+                                <h5>Section</h5>
+                                <ul class="nav flex-column">
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a>
+                                    </li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a>
+                                    </li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a>
+                                    </li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a>
+                                    </li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="col">
+                                <h5>Section</h5>
+                                <ul class="nav flex-column">
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a>
+                                    </li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a>
+                                    </li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a>
+                                    </li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a>
+                                    </li>
+                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </footer>
+                    </div>
+        </footer>
+
+        <!-- 滾動瀑布 -->
+        <script src="/path/to/infinite-scroll.pkgd.min.js"></script>
+        <script src="./js/masonry.pkgd.min.js"></script>
+        <script src="./js/index1.js"></script>
+        <script src="./bs/js/bootstrap.js"></script>
+
+
+
+    </body>
+
+</html>

@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.a-menuLeftLabel,.a-keyWord,.a-top5Label,.a-albumPrice,.a-productList,.a-productDescription,.a-trackList,.a-likeCard,.a-shopCardBody,.a-shopTitle,.a-shopHeader{
+  color: #ffff;
+}
+ a.a-top5albumName{
+  color:#B58686;
+  font-size: 10px;
+  
+  
+} */
+.a-productAlbumName{   
+  font-size: 18px;
+  font-weight: 700;
+}
+
+
+.a-shop{
+  width:36vh;
+}
+
+
+
+
+a.a-productAlbumName{
+  color:black;
+  font-weight:700
+}
+
+.a-fa-regular {
+  color: red;
+
+}
+.a-productName,.a-productList,.a-productPrice{
+  font-weight: 700;
+}
+.a-productList span{
+  color: red;
+}
+
+.a-locationList{
+  color: rgb(190, 187, 187);
+}
+
+.a-favBtn{
+  border: 2px solid #ffff;
+  color: #ffff
+}
+.a-top5albumName{
+  font-weight: 600;
+}
+.a-evaluateIcon,.a-starIcon{
+  color: #ffc107;
+}
+.a-topList-img {
+  margin: 5px;
+  height: 7rem;
+}
+
+.a-productCar{
+  width: 25rem;
+}
+
+.a-topListTittle {
+  font-size: small;
+}
+
+.a-likeCard{
+  background-color: #68665d;
+  width: 16rem;
+}
+
+.a-likeCardTitle{
+  font-size: 16px;
+  font-weight: 400
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.a-underLine{
+  border: 3px solid black;
+}
+.a-talkImg{
+  width: 80%;
+}
+.a-storeBoss{
+background-color: #E8E8E8;
+}
+/* .a-productImgSm{
+  width: 6rem;
+} */
+

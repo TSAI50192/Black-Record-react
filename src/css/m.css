@@ -1,0 +1,487 @@
+/* body {
+  background-color: #2C2E26;
+} */
+
+/* .menavber{
+  background-color:#2C2E26 ;
+} */
+
+
+.mbg {
+  width: 100%;
+  height: 1300px;
+  background: url('/public/img/mimg/background2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.memberpage {
+  /* 中間全部範圍 */
+  width: 1086px;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  padding-top:100px;
+}
+
+
+
+.memberedit .list-group a {
+  width: 150px;
+  border: #7D7D7D solid 1px;
+  background-color: rgba(255, 255, 255, 0.3);
+  /* 調整影響文字亮度勿改 */
+  padding-top: 10px;
+  color: #ffffff;
+  margin-right: 10px;
+  /* font-size: 28px;
+  font-weight: 900;
+  line-height: 41px;
+  letter-spacing: 0em; */
+
+}
+
+
+.memberlistgroupitem {
+  /* 四大分類 */
+  color: rgba(255, 255, 255, 0.3);
+  border-bottom: #7D7D7D solid 1px;
+  /* 調整影響文字亮度勿改 */
+  margin-bottom: 10px;
+}
+
+.memberinfolist {
+  color: rgba(255, 255, 255, 0.3);
+  border-bottom: rgba(255, 255, 255, 0.3)  solid 1px;
+}
+.memberinfolist li{
+  color: rgba(255, 255, 255, 0.3);
+  border-bottom: rgba(255, 255, 255, 0.3)  solid 1px;
+}
+
+
+.memberinfolist a:hover {
+  color: #ffffff;
+  border-bottom: #ffffff solid 1px;
+} 
+
+.memberinfolist li:hover {
+  color: #ffffff;
+  border-bottom: #ffffff solid 1px;
+}
+
+.ml4 a:hover{
+ color: #000;
+ background-color: #FFFFFF;
+}
+/* -----------會員編輯------------ */
+.mlisthover{
+  color: rgba(255, 255, 255, 0.3);
+  border-bottom: rgba(255, 255, 255, 0.3)  solid 1px;
+  font-weight: 600;
+}
+
+.mlisthover:hover{
+  color: #ffffff;
+  border-bottom: #ffffff solid 1px;
+}
+
+.mmyCard {
+  text-align: center;
+  color: #ffffff;
+}
+
+.mimg-warp {
+  width:200px;
+  height:200px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  overflow: hidden;
+
+}
+
+.mimg-warp img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 0%;
+
+}
+
+.memberlevel {
+  background-color: #C6B269;
+  border-radius: 10px;
+  padding: 1px;
+}
+
+.minfo-editgroup {
+  /* 霧面編輯區塊 */
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 904px;
+  min-height: 651px;
+  align-items: center;
+  justify-content:start;
+  font-size: 21px;
+  font-weight: 900;
+  line-height: 30px;
+  letter-spacing: 0em;
+
+}
+
+.selecttype{
+   color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+}
+
+.useredit {
+  /* color: #ffffff; */
+  width: 100%;
+  justify-self: center;
+  padding: 10px;
+}
+
+.minfo-editgroup input {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: #ffffff;
+}
+
+.mainh{
+  /* 表格撐高 */
+  width: 904px;
+  min-height: 651px;
+}
+
+/* -------密碼---------- */
+.userpassword{
+margin-top: 150px;
+text-align: center;
+padding-right: 200px;
+
+} 
+.passwordeditSave button{ 
+  width: 40%;
+  text-align: center;
+}
+
+
+/* ------歷史訂單---------- */
+.memberinfolist{
+  /* h3 */
+  /* font-size: 28px;
+  font-weight: 900;
+  line-height: 41px;
+  letter-spacing: 0em; */
+}
+
+.memberinfolist li{
+  color: rgba(255, 255, 255, 0.3);
+  margin-bottom: 10px;
+}
+
+.memberinfolist li:hover{
+  color: #ffffff;
+}
+
+ .orderList td{
+  border:1px #FFFFFF dotted;
+  padding-left: 1px;
+  text-align: center;
+}
+
+.orderList tr:hover{
+  background-color: rgba(255, 255, 255);
+  color: #000;
+}
+
+
+.ordernamber a{
+  color: #FF686E;
+}
+
+
+.orderdetail{
+  align-items: center;
+  justify-content: space-evenly;
+}
+.orderimg{
+  width: 100px;
+}
+
+
+/* --------希望清單------------- */
+
+.productdetail{
+  width: 300px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  /* display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  white-space: nowarp;
+  overflow: hidden; 
+  word-break: break-all; */
+}
+
+.wishicon{
+  text-align:center
+}
+
+
+.wishicon:hover{
+  color: #FF686E;
+}
+
+
+/* -------優惠劵------------ */
+.orderList{
+  color: #FFFFFF;
+    /* h3 */
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 41px;
+    letter-spacing: 0em;
+}
+.coupon{
+  color: #FF686E;
+  font-size: 38px;
+  font-weight: 900;
+  line-height: 55px;
+  letter-spacing: 0em;
+}
+
+.orderList td{
+background-color: rgb(125, 125, 125,0.3);
+}
+
+.orderList th{
+  background-color: rgb(255, 255, 255,0.8);
+}
+/* ------訂單明細---------- */
+.orderdetaillistpage {
+  background-color: rgba(255, 255, 255, 0.9);
+  
+}
+
+.listTOP{
+  width: 100%;
+  background-color: #ffffff;
+  margin-bottom: 50px;
+  font-size: 38px;
+  font-weight: 900;
+  line-height: 55px;
+  letter-spacing: 0em;
+}
+
+.recipientinformation{
+
+}
+.orderdetaillist{
+  text-align: center;
+}
+
+.listcontent2{
+  background-color:  #E0DDD3;
+  white-space: nowrap
+}
+.listcontent2 th, .listcontent2 td{
+text-align: start;
+}
+
+.listcontent3{
+  background-color: #ffffff;
+  
+}
+
+
+
+/* -----評論--------- */
+
+.star {
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 41px;
+  letter-spacing: 0em;
+  color: #C6B269
+}
+
+
+.writecomment{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+
+/* ---------下面開始手機板---------------- */
+@media screen and (max-width: 768px) {
+.mbg{
+  height: 1300px;
+}
+
+  .memberpage {
+    /* 中間全部範圍 */
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    /* position: absolute;
+    top: 450px;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+
+  }
+
+
+  .memberlistgroup-sm a {
+    /* 上方四個大類 */
+    width: 100%;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.3);
+    /* border-bottom: #7D7D7D solid 1px; */
+    /* 調整影響文字亮度勿改 */
+  }
+
+  .memberlistgroup-sm a:hover {
+    color: #ffffff;
+    /* border-bottom: #ffffff solid 1px; */
+  }
+
+  .memberinfolist {
+    /* 下方分類 */
+    padding-left: 0;
+    text-align: start;
+    margin: 10px 0px;
+    font-size: calc(1.275rem + 0.3vw);
+  }
+
+  .memberinfolist a {
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  .memberinfolist a:hover {
+    color: #ffffff;
+  }
+
+  .memberedit {
+    /* 霧面編輯區塊 */
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+.mainh{
+  width: 100%;
+}
+
+  /* -------手機會員編輯區--------- */
+
+  .mimg-warp {
+    /* 手機板時會員圖片消失 */
+    display: none;
+  }
+
+  .mmyCard {
+    width: auto;
+    height: auto;
+    text-align: start;
+  }
+
+  .memberlevel {
+    background-color: #C6B269;
+    border-radius: 10px;
+
+    margin-bottom: 5px;
+  }
+  .minfo-editgroup {
+  width: 100%;
+
+  }
+
+  .minfo-editgroup label , .minfo-editgroup input {
+    display: block;
+    color: #ffffff;
+    margin-right: 5px;
+
+  }
+
+  .minfo-editgroup input, .minfo-editgroup select
+   {
+    background-color: rgba(255, 255, 255, 0.4);
+    /* color: #ffffff; */
+    margin-bottom: 10px;
+  }
+
+  .subcheck {
+    display: flex;
+    align-items: baseline;
+
+  }
+
+
+  /* -----密碼------ */
+  .userpassword{
+    margin: 0px;
+    text-align: start;
+  }
+
+  .usereditpassword {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .passwordeditSave button {
+    width: 100%;
+  }
+
+/* -------歷史訂單--------- */
+
+.memberinfolist li{
+color: rgba(255, 255, 255, 0.3);
+}
+
+.memberinfolist li:hover{
+  color: #ffffff;
+}
+
+
+.ordernamber a{
+  color: #FF686E;
+}
+
+/* -----希望清單----------- */
+
+/* ----------優惠劵----------- */
+
+/* ------訂單明細------- */
+.listTOP{
+  font-size: 21px;
+  font-weight: 900;
+  line-height: 30px;
+  letter-spacing: 0em;
+  margin-bottom: 25px;
+}
+
+.orderdetaillist{
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+}
+
+.orderdetaillisttext {
+  /* 產品文字 */
+  overflow: hidden;
+}
+
+
+/* -------評論--------- */
+.writecomment textarea{
+  height:100px
+}
+
+  /* -------上面手機板------------- */
+}

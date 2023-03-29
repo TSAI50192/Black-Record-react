@@ -1,0 +1,722 @@
+/* 客製化CSS---------------- */
+/* CusHeader 樣式 */
+.t-text-left{
+    text-align:left;
+    padding-left:50px;
+    font-size:22px;
+    line-height:50px;
+  }
+
+.t-cus-zindex{
+z-index: 1;
+text-shadow: black 0.1em 0.1em 3em
+}
+
+.t-cus{
+    /* border-radius: 50%; */
+    width: 4px;
+    height: 30px;
+    background-color: #C6B269;
+    align-self:center ;
+    margin-right: 6px;
+}
+
+/* main--外框 */
+.t-line{
+    margin:20px;
+}
+
+.t-line-out{
+    padding-bottom:20px;
+}
+
+/* main--步驟數字 */
+.t-step{
+    border-radius: 50%;
+    width: 60px;
+    /* 設定文字的行高代替height */
+    line-height: 60px;
+    /* 區塊置中 */
+    margin: auto; 
+    /* 文字置中 */
+    text-align: center;
+    transform: translateY(30px);
+}
+
+/* --輪轉卡片 */
+.t-card-group{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 60px 20px 40px 20px;
+}
+
+/* ------------------------ */
+/* CusAImgMusic 樣式 */
+.t-cus-music .swiper-slide {
+    position: relative;
+} 
+
+.t-cus-music .swiper-slide img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+/* 取消左右圖片的陰影 */
+.t-cus-music .swiper-slide-shadow-left,
+.t-cus-music .swiper-slide-shadow-right {
+    display: none;
+}
+
+/* 如果沒有swiper-slide-active這個樣式，就全部設定為黑白的 */
+.t-cus-music .swiper-slide:not(.swiper-slide-active) img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%) blur(2px);
+} 
+
+.t-cus-music .swiper-slide:not(.swiper-slide-visible) img {
+    display: none;
+} 
+
+.t-cus-music .swiper-slide h5 {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    padding: 0 40px;
+} 
+
+.t-cus-music .swiper-slide:not(.swiper-slide-active) h5 {
+    display: none;
+}
+
+.t-step-hover:hover{
+    text-shadow:black 0em 0em 0.2em, black 0.1em 0.1em 0.2em;
+    color: #ffffff;
+}
+
+.t-step-hover2{
+    color: #ffffff
+}
+
+.t-step-hover2:hover{
+    text-shadow:white 0em 0em 0.2em, white 0.1em 0.1em 0.2em;
+    color: #222224;
+}
+
+/* 控制圖片箭頭 */
+.t-cusa-controler .slider-arrow {
+  left: 5%;
+  transform: translateX(-5%);
+  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+}
+
+.t-cus-music .t-cusa-controler .slider-arrow{
+  color: #222224;
+}
+
+.t-cusa-controler{
+  position: relative;
+  bottom: 40px;
+}
+
+.t-cusa-controler .swiper-button-next {
+  left: 93%;
+  transform: translateX(-93%);
+}
+
+.t-cusa-controler .swiper-button-next, .t-cusa-controler .swiper-button-prev {
+  --swiper-navigation-size: 30px;
+}
+
+
+/* 播放器控制 */
+.t-music-timerdiv{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.t-music-progressbar{
+    width: 90%;
+    height: 20px;
+    border-radius: 5px;
+    /* 去除藍色外框線 */
+    outline: none;
+    /* 旋轉的角度 */
+    filter: hue-rotate(20deg);
+        /* 滑鼠變手的形狀 */
+    cursor: pointer;
+}
+
+.t-music-playbtn{
+    font-size: 34px;
+    margin:0 40px;
+    color:#C6B269;
+    cursor: pointer;
+    /* font-weight: 400; */
+}
+
+.t-music-controler{
+    cursor: pointer;
+    font-size: 30px;
+    color: #C6B269;
+}
+
+.t-selected{
+    box-shadow: 0 0 20px #ff686e;
+}
+
+
+/* ------------------------ */
+/* CusCImg */
+.t-music-material{
+    border-radius: 10px;
+}
+
+.t-music-fourimg{
+    width: 500px;
+    height: 500px;
+    position:absolute;
+    top:0; 
+    z-index: 3;
+    background-color: #FFFFFF;
+    /* border:1px solid rgb(34, 34, 36, 0.2); */
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.t-music-mater .swiper-slide-active img{
+    position:relative;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+/* ------------------------ */
+/* CusDFinsh */
+.t-cus-4{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    position: absolute;
+    object-fit: cover;
+    right:30%;
+    background-color:whitesmoke;
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.4);
+}
+
+.t-cus-4-material{
+    border-radius: 10px;
+    position: absolute;
+    right:30%;
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.4);
+    z-index: 2;
+}
+
+@media screen and (min-width:992px) { 
+    /* main--步驟數字 */
+    .t-step{
+        border-radius: 50%;
+        width: 150px;
+        /* 設定文字的行高代替height */
+        line-height: 150px;
+        /* 區塊置中 */
+        margin: auto; 
+        /* 文字置中 */
+        text-align: center;
+        transform: translateY(70px);
+    }
+
+    .t-step h1{
+        /* 只適用於行內元素-inline */
+        vertical-align: middle;
+    }
+
+
+    /* ------------------------ */
+    /* CusAImg樣式 */
+    .t-firststep-img{
+        box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.4);
+    }
+
+    .t-cus-music .swiper-slide-active img{
+        border-radius: 10px;
+        margin-bottom: 15px;
+        
+    }
+
+    .t-cus-music .swiper-slide:not(.swiper-slide-active) h3 {
+        display: none;
+    } 
+
+    .t-cus-music .slider-controler .slider-arrow{
+        color: #222224;
+    }
+
+    .t-music-playbtn{
+        font-size: 42px;
+        margin:0 30px;
+        color:rgb(198, 178, 105);
+        cursor: pointer;
+        /* font-weight: 400; */
+    }
+
+    .t-music-playbtn svg:hover {
+        stroke-opacity: 0;
+        stroke-width: 0;
+        transform: scale(1.2);  
+        transition: stroke-opacity 0.2s, stroke-width 0.2s, transform 0.2s;
+        transform-origin: 50% 50%;
+        -webkit-filter: drop-shadow(1px 1px 1px rgba(128, 115, 68, 0.5));      
+        filter: drop-shadow(1px 1px 1px rgba(128, 115, 68,0.5));  
+    }
+    
+    .t-music-controler{
+        cursor: pointer;
+        font-size: 42px;
+        color: #C6B269;
+    }
+
+    .t-music-controler svg:hover {
+        stroke-opacity: 0;
+        stroke-width: 0;
+        transform: scale(1.2);  
+        transition: stroke-opacity 0.2s, stroke-width 0.2s, transform 0.2s;
+        transform-origin: 50% 50%;
+        -webkit-filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.5));      
+        filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.5));  
+    }
+      
+    /* ------------------------ */
+    /* CusBUpload */
+    .t-music-second-img{
+        box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.4);
+        border-radius: 10px;
+        width: 500px;
+        height: 500px;
+        background-color: whitesmoke;
+        object-fit: cover;
+    }
+
+    .t-btn-radius{
+        border-radius: 10px;
+        padding: 0;
+    }
+
+    .t-music-second-img:hover{
+        transform: translateY(-8px);
+        box-shadow: 2px 2px 6px 4px #ff686e;
+    }
+
+
+
+    /* ------------------------ */
+    /* --輪轉卡片 */
+    .t-card-group{
+        display: flex;
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        padding: 150px 60px 120px 60px;
+        align-items: center;
+    }
+
+    .t-cus-4{
+        position: absolute;
+        right:20%;
+        box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.4);
+    }
+}
+
+@media screen and (min-width:1200px) {     
+    .t-cus{
+        border-radius: 0;
+        width: 8px;
+        height: 100px;
+        background-color: #C6B269;
+        align-self:flex-end ;
+        margin-right: 10px;
+    }
+
+    /* main--外框白線 */
+    .t-line{
+        margin:60px;
+        border: 6px solid #FFFFFF;
+        padding:60px;
+    }
+
+    .t-line-out{
+        padding-bottom:60px;
+    }
+    
+}
+
+
+@media screen and (min-width:1400px) { 
+    .t-cus-4{
+        position: absolute;
+        right:30%;
+        box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.4);
+    }
+}
+
+
+
+/* 商品首頁CSS---------------- */
+/* header--大圖輪播牆 */
+.t-cus-image{
+    max-width: 100%;
+    height: 1000px;
+    /* 滑鼠變手的形狀 */
+    /* cursor: pointer; */
+}
+
+.t-title-text{
+    position: absolute;
+    top:32%;
+    left:8%;
+    color: #FFFFFF;
+    text-shadow: black 0.1em 0.1em 3em
+}
+
+.t-pdhomeheader div div span.swiper-pagination-bullet, .t-cusheader div div span.swiper-pagination-bullet{
+    width: 38px;
+    border: 4px solid #FFFFFF;
+    border-radius: 0px;
+    background: #FFFFFF;
+    --swiper-pagination-bullet-horizontal-gap: 8px;
+}
+
+.t-pdhomeheader div div span.my-bullet-active, .t-cusheader div div span.my-bullet-active{
+    background: #FFFFFF;
+    opacity: 1;
+}
+
+.t-pdhomeheader div div.swiper-pagination-bullets, .t-cusheader div div.swiper-pagination-bullets{
+    margin-bottom: 31%;
+}
+
+.t-pdhomeheader div div.swiper-button-prev, .t-cusheader div div.swiper-button-prev{
+    color: #FFFFFF;
+    position: absolute;
+    --swiper-navigation-top-offset: 80%;
+    left: 14vw;
+    --swiper-navigation-size: 34px;
+    margin: 0;
+}
+
+.t-pdhomeheader div div.swiper-button-next, .t-cusheader div div.swiper-button-next{
+    color: #FFFFFF;
+    position: absolute;
+    --swiper-navigation-top-offset: 80%;
+    right: 14vw;
+    --swiper-navigation-size: 34px;
+    margin: 0;
+}
+
+.t-pdhomeheader div div.swiper-button-prev::after, .t-pdhomeheader div div.swiper-button-next::after, .t-cusheader div div.swiper-button-prev::after, .t-cusheader div div.swiper-button-next::after{
+    padding: 20px;
+}
+
+.t-mb-200{
+    margin-bottom: 200px;
+}
+
+/* ---------------------- */
+/* 獨家販售、熱門商品、最新上架 */
+.t-first{
+    position:relative;
+    z-index: 2;
+}
+
+.t-first-img{
+    width: 100%;
+    height: 250px;
+    display: block;
+    margin: auto;
+}
+
+.t-tag{
+    width: 140px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    position: absolute;
+    top: 60%;
+
+}
+
+.t-img img{
+    margin: 0px 4px 10px 0px;
+}
+
+.t-only-bg{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 27%;
+    z-index: 1;
+}
+
+.t-first-po{
+    padding: 10px 30px 60px 30px;
+    color: #FFFFFF;
+    text-align:center;
+    position: relative;
+    z-index: 3;
+}
+
+.height-two {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.height-four {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.t-ph-firstproduct .swiper-button-next, .t-ph-firstproduct .swiper-button-prev {
+    /* --swiper-navigation-size: 30px; */
+    color: #222224;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.t-ph-firstproduct {
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+#songAvatar{
+    /* cursor: pointer; */
+    animation: animateAvatar 1s linear infinite;
+}
+
+@keyframes animateAvatar {
+    0%,100%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+}
+
+
+/* 黑膠唱片*10 */
+.t-sec-img{
+    width:100%;
+    height: 30vh;
+}
+
+.t-more-btn{
+    color: #B58686;
+}
+
+.t-more-btn:hover{
+    color: #893B3B;
+}
+
+/* 唱片機、周邊商品 */
+.t-triangle{
+    height: 0;
+    width: 0;
+    border-bottom: 50px solid transparent;
+    border-right: 100vw solid transparent;
+    border-top: 50vw solid #2C2E26;
+}
+
+.t-thr-img{
+    width:100%;
+    height: 30vh;
+    margin-bottom: 10px;
+}
+
+/* 募資、預購 */
+.t-four-img{
+    width: 100%;
+    height: 40vh;
+    margin-bottom: 16px;
+}
+
+.t-progress{
+    margin-bottom: 36px;
+}
+
+
+@media screen and (min-width:992px) { 
+    /* header--大圖輪播牆 */
+    .t-title-text{
+        position: absolute;
+        top:30%;
+        left:8%;
+        color: #FFFFFF;
+        text-shadow: black 0.1em 0.1em 3em
+    }
+
+    .t-pdhomeheader div div.swiper-pagination-bullets, .t-cusheader div div.swiper-pagination-bullets{
+        margin-bottom: 60px;
+    }
+
+    .t-pdhomeheader div div span.swiper-pagination-bullet, .t-cusheader div div span.swiper-pagination-bullet{
+        width: 50px;
+        border: 4px solid #FFFFFF;
+        border-radius: 0px;
+        background: #FFFFFF;
+        --swiper-pagination-bullet-horizontal-gap: 12px;
+    }
+
+    .t-pdhomeheader div div.swiper-button-prev, .t-cusheader div div.swiper-button-prev{
+        color: #FFFFFF;
+        position: absolute;
+        --swiper-navigation-top-offset: 90%;
+        left: 42vw;
+        --swiper-navigation-size: 40px;
+        margin: 0;
+    }
+
+    .t-pdhomeheader div div.swiper-button-next, .t-cusheader div div.swiper-button-next{
+        color: #FFFFFF;
+        position: absolute;
+        --swiper-navigation-top-offset: 90%;
+        right: 42vw;
+        --swiper-navigation-size: 40px;
+        margin: 0;
+    }    
+
+    /* 獨家販售、熱門商品、最新上架 */
+    .t-ph-first-mx200 {
+        margin-right: 200px ;
+        margin-left:200px ;
+      }
+
+    .t-first-img{
+        width: 600px;
+        height: 600px;
+    }
+
+    .t-first-card{
+        width: 620px;
+        height: 300px;
+        position: absolute;
+        right: 0;
+        bottom: 20px;
+    }
+
+    .t-first-card img{
+        margin-right: 10px;
+    }
+
+    .t-first-card h2{
+        width: 240px;
+        line-height: 90px;
+        text-align: center;
+        vertical-align: middle;
+        color: #FFFFFF;
+    }
+
+   .t-text-30{
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 100px;
+    }
+
+
+
+    /* 黑膠唱片*10 */
+    .t-sec-img{
+        width:100%;
+        height: 36vh;
+        margin-bottom: 10px;
+    }
+
+    .t-sec-card{
+        background-color: #ffffff20;
+        padding: 20px;
+        margin-right: 40px;
+    }
+
+    /* 唱片機、周邊商品 */
+    .t-
+    .t-thr-img{
+        width:100%;
+        height: 32vh;
+        margin-bottom: 10px;
+    }
+
+    .t-thr-card{
+        background-color: #ffffff20;
+        padding: 20px;
+        margin: 10px 30px 40px 38px;
+    }
+
+    .t-thr-card:hover{
+        background-color: #ffffff;
+        padding: 12px;
+        margin: 10px 30px 40px 38px;
+        color: #222224;
+    }
+
+    
+    /* 募資 */
+    .t-crow-align{
+        text-align: justify;
+    }
+
+    .t-crow-text{
+        padding: 8rem 4rem 4rem 4rem;
+    }
+
+    .t-four-img{
+        width: 500px;
+        height: 450px;
+        margin-bottom: 10px;
+        object-fit: contain;
+    }
+
+    .t-crow-img .swiper-button-next {
+        color: #ffffff;
+        margin-right: 80px;
+    }
+
+    .t-crow-img .swiper-button-prev {
+        color: #ffffff;
+        margin-left: 80px;
+    }
+
+    .t-crow-card{
+        background-color: #ffffff20;
+        text-align: justify;
+        width: 400px;
+    }
+
+    .t-crow-card:hover{
+        background-color: #ffffff;
+        padding: 12px;
+        text-align: justify;
+        color: #222224;
+    }
+
+    .tsai-text-21-500 {
+        font-size: 21px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0em;
+      }
+
+
+
+    .tsai-text-18-500 {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0em;
+      }
+
+}

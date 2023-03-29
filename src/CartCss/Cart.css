@@ -1,0 +1,120 @@
+/* 購物車 Cart */
+
+.c-CartTable {
+  width: 100%;
+}
+
+.c-CartTable img {
+  width: 140px;
+  height: 120px;
+}
+.c-CartTable path,
+.c-CartTable svg {
+  background-color: #e0ddd3;
+}
+
+.c-CartTable button {
+  width: 25px;
+  height: 25px;
+  color: #b58686;
+  border: #b58686;
+}
+
+.c-CartTable a {
+  color: gray;
+}
+
+.c-CartTable tbody {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.c-bg-light table {
+  margin-bottom: 50px;
+}
+
+.c-CartTable h5 {
+  color: darkred;
+  background-color: #e0ddd3;
+  text-align: center;
+}
+
+.c-CartTable td {
+  width: 25%;
+}
+
+.c-CartCardContent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.c-CartCardProduct {
+  width: 850px;
+  display: flex;
+  justify-content: space-around;
+  float: center;
+  text-align: center;
+}
+
+.c-CartCardProduct img {
+  width: 250px;
+  height: 190px;
+  object-fit: cover;
+  object-position: center center;
+  object-fit: cover;
+}
+
+.c-CartCard {
+  width: 30%;
+  justify-content: start;
+  align-items: start;
+}
+
+.c-CartCardText {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.c-CartCardText h5 {
+  background: #e0ddd3;
+  color: goldenrod;
+}
+
+.c-CartCardText a {
+  background: #e0ddd3;
+  color: #b58686;
+  text-decoration: none;
+}
+
+.c-CartCardText h6 {
+  background: #e0ddd3;
+  color: #b58686;
+}
+
+.c-CartCardPrice {
+  width: 20%;
+}
+
+.c-CartCardPriceText {
+  display: flex;
+  justify-content: center;
+}
+
+.c-CartCardPriceTextBtn {
+  padding: 10px;
+  float: right;
+  color: white;
+  background-color: #893b3b;
+  border: #893b3b;
+}
+
+.c-bg-light span {
+  background-color: #e0ddd3;
+}
+
+.c-bg-light tfoot .text-end {
+  border-top: 1px solid black;
+}

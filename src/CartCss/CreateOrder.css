@@ -1,0 +1,220 @@
+/* 訂單確定  CreateOrder*/
+
+.c-c-o-wrap {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.c-c-o-container {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  padding: 0;
+  margin-top: 150px;
+  transform: translateX(-50%);
+}
+
+.c-p-side {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.c-c-o-Left {
+  margin: 0;
+  width: 47%;
+}
+
+.c-CartTable a {
+  display: flex;
+  justify-content: center;
+}
+
+.c-Coupon {
+  display: flex;
+  justify-content: start;
+  margin: 5px;
+  background-color: #e0ddd3;
+}
+
+.c-Coupon input {
+  width: 90%;
+}
+
+.c-CouponText {
+  width: 90%;
+  margin: auto;
+}
+
+.c-Couponbtn {
+  width: 40px;
+  height: 40px;
+  color: white;
+  border: #b58686;
+  background-color: #b58686;
+  margin: 10px;
+}
+.c-c-o-Left span {
+  color: red;
+  font-size: 16px;
+  font-weight: bolder;
+  background: #e0ddd3;
+}
+
+.c-c-o-container p {
+  font-size: 12px;
+}
+
+.c-c-o-Right {
+  margin: auto;
+  width: 47%;
+}
+
+.c-SubtotalGroup {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.c-Subtotal {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.c-SubtotalText {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.c-SubtotalPrice {
+  width: 200px;
+  display: flex;
+  justify-content: end;
+}
+
+.c-SubtotalPrice h3 {
+  margin: auto 0;
+  padding: 0;
+  text-align: center;
+}
+.c-SubtotalPrice h2 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-left: 10px;
+}
+.c-CartMaterial {
+  width: 80%;
+  margin: auto;
+}
+
+.c-CartMaterialText {
+  display: flex;
+  justify-content: space-between;
+}
+
+.c-CartConfirmOrder {
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.c-CartConfirmOrder h4 {
+  padding-top: 10px;
+}
+
+.c-CartDetail {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  margin-bottom: 10px;
+  background: white;
+}
+
+.c-CartDetail input {
+  width: 80%;
+}
+
+.c-CartDetail label {
+  background: white;
+}
+
+.c-CartConfirmOrder input,
+h5,
+h6 {
+  background: white;
+}
+
+.c-CartLinePay {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  padding: 10px;
+  border-top: 1px solid black;
+  display: flex;
+}
+
+.c-c-o-container svg {
+  background: white;
+}
+
+.c-c-o-container path {
+  background: white;
+}
+
+.c-CartConfirmOrderbtn {
+  color: white;
+  margin: 10px;
+  background-color: #893b3b;
+  border: #893b3b;
+  width: 250px;
+  height: 63px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-CartConfirmbtn {
+  display: flex;
+  justify-content: center;
+}
+
+.c-CartCustomerCheck {
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: start;
+  margin-top: 20px;
+}
+
+.c-CartCustomerCheckText {
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.c-CartCustomerCheckText h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.c-CartCustomerCheckText span {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.c-CartConfirmOrderbtn h3 {
+  margin: 0;
+  display: flex;
+  background: #893b3b;
+}
